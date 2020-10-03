@@ -1,4 +1,4 @@
-### Hi there 👋
+### Привет человек 👋   
 
 <!--
 **cr1ma/Cr1Ma** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
