@@ -2,7 +2,10 @@
 
     color: black;
     text-decoration: none;
-  
+    font-weight: bold;
+    font-size: 18px;
+
+    
   }
 .link:hover {
   
@@ -14,16 +17,20 @@
 
 
   .Web{
-    color: #2196F3 ; 
-    text-decoration: none; 
-    src: url("./fonts/RalewayRegular.ttf") format("truetype");
-    font-family: "RalewayRegular";
-    font-weight: bold;
+    font-family: Raleway,sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: #2196F3;
+    letter-spacing: 0.03em;
+    text-decoration: none;
   }
 
   .Studio
 {
+    font-family: Raleway,sans-serif;
     color: black ;
+    text-decoration: none;
 }
 
 
@@ -41,4 +48,20 @@
 .button:active {
     background: #1867a7;
       }
-    
+
+      
+
+.mailtell {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #808080;
+  text-decoration: none;
+  font-weight: bold;
+}
+.mailtell:hover {
+  
+  color: #2196F3;
+  text-decoration: none;
+
+}
