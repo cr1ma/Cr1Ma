@@ -182,7 +182,7 @@ a.Client6:hover {
     height: 120px; /*  Высота рисунка */
 }
 .antenna:hover {
-    background: url(./Images/Group1/antenna1.jpg); /* Путь к файлу с заменяемым рисунком  */
+    background: url(../Images/Group1/antenna1.jpg); /* Путь к файлу с заменяемым рисунком  */
 }
 
 .astronaut {
@@ -192,7 +192,7 @@ a.Client6:hover {
     height: 120px; /*  Высота рисунка */
 }
 .astronaut:hover {
-    background: url(./Images/Group1/astronaut1.jpg); /* Путь к файлу с заменяемым рисунком  */
+    background: url(../Images/Group1/astronaut1.jpg); /* Путь к файлу с заменяемым рисунком  */
 }
 
 .clock {
@@ -202,7 +202,7 @@ a.Client6:hover {
     height: 120px; /*  Высота рисунка */
 }
 .clock:hover {
-    background: url(./Images/Group1/clock1.jpg); /* Путь к файлу с заменяемым рисунком  */
+    background: url(../Images/Group1/clock1.jpg); /* Путь к файлу с заменяемым рисунком  */
 }
 
 .diagram {
@@ -212,5 +212,5 @@ a.Client6:hover {
     height: 120px; /*  Высота рисунка */
 }
 .diagram:hover {
-    background: url(./Images/Group1/diagram1.jpg); /* Путь к файлу с заменяемым рисунком  */
+    background: url(../Images/Group1/diagram1.jpg); /* Путь к файлу с заменяемым рисунком  */
 }
