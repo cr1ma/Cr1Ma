@@ -1,0 +1,216 @@
+/*Иконки соц сетей*/
+a.instagram {
+
+    background: url(/logo/Instagram.svg); /* Путь к файлу с исходным  рисунком */
+
+    display: block; 
+
+    width: 44px; /* Ширина рисунка в пикселах */
+
+    height: 44px; /* Высота рисунка */
+
+}
+a.instagram:hover {
+
+    background-position: 0 -44px; /* Смещение фона */
+
+}
+
+a.twitter {
+
+    background: url(/logo/twitter.svg); /* Путь к файлу с исходным  рисунком */
+
+    display: block; 
+
+    width: 44px; /* Ширина рисунка в пикселах */
+
+    height: 44px; /* Высота рисунка */
+
+}
+a.twitter:hover {
+
+    background-position: 0 -44px; /* Смещение фона */
+
+}
+
+a.facebook {
+
+    background: url(/logo/facebook.svg); /* Путь к файлу с исходным  рисунком */
+
+    display: block; 
+
+    width: 44px; /* Ширина рисунка в пикселах */
+
+    height: 44px; /* Высота рисунка */
+
+}
+a.facebook:hover {
+
+    background-position: 0 -44px; /* Смещение фона */
+
+}
+
+a.linkedin {
+
+    background: url(/logo/linkedin.svg); /* Путь к файлу с исходным  рисунком */
+
+    display: block; 
+
+    width: 44px; /* Ширина рисунка в пикселах */
+
+    height: 44px; /* Высота рисунка */
+
+}
+a.linkedin:hover {
+
+    background-position: 0 -44px; /* Смещение фона */
+
+}
+
+
+
+/* Клиенты*/
+a.Client1 {
+
+    background: url(/logo/Client1.svg); /* Путь к файлу с исходным  рисунком */
+
+    display: block; 
+
+    width: 170px; /* Ширина рисунка в пикселах */
+
+    height: 90px; /* Высота рисунка */
+
+}
+a.Client1:hover {
+
+    background-position: 0 -90px; /* Смещение фона */
+
+}
+
+a.Client2 {
+
+    background: url(/logo/Client2.svg); /* Путь к файлу с исходным  рисунком */
+
+    display: block; 
+
+    width: 170px; /* Ширина рисунка в пикселах */
+
+    height: 90px; /* Высота рисунка */
+
+}
+a.Client2:hover {
+
+    background-position: 0 -90px; /* Смещение фона */
+
+}
+
+a.Client3 {
+
+    background: url(/logo/Client3.svg); /* Путь к файлу с исходным  рисунком */
+
+    display: block; 
+
+    width: 170px; /* Ширина рисунка в пикселах */
+
+    height: 90px; /* Высота рисунка */
+
+}
+a.Client3:hover {
+
+    background-position: 0 -90px; /* Смещение фона */
+
+}
+
+a.Client4 {
+
+    background: url(/logo/Client4.svg); /* Путь к файлу с исходным  рисунком */
+
+    display: block; 
+
+    width: 170px; /* Ширина рисунка в пикселах */
+
+    height: 90px; /* Высота рисунка */
+
+}
+a.Client4:hover {
+
+    background-position: 0 -90px; /* Смещение фона */
+
+}
+
+a.Client5 {
+
+    background: url(/logo/Client5.svg); /* Путь к файлу с исходным  рисунком */
+
+    display: block; 
+
+    width: 170px; /* Ширина рисунка в пикселах */
+
+    height: 90px; /* Высота рисунка */
+
+}
+a.Client5:hover {
+
+    background-position: 0 -90px; /* Смещение фона */
+
+}
+
+a.Client6 {
+
+    background: url(/logo/Client6.svg); /* Путь к файлу с исходным  рисунком */
+
+    display: block; 
+
+    width: 170px; /* Ширина рисунка в пикселах */
+
+    height: 90px; /* Высота рисунка */
+
+}
+a.Client6:hover {
+
+    background-position: 0 -90px; /* Смещение фона */
+
+}
+
+
+
+/*Наши правила*/
+.antenna {
+    background: url(/Images/Group1/antenna.jpg); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 270px; /* Ширина рисунка */
+    height: 120px; /*  Высота рисунка */
+}
+.antenna:hover {
+    background: url(/Images/Group1/antenna1.jpg); /* Путь к файлу с заменяемым рисунком  */
+}
+
+.astronaut {
+    background: url(/Images/Group1/astronaut.jpg); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 270px; /* Ширина рисунка */
+    height: 120px; /*  Высота рисунка */
+}
+.astronaut:hover {
+    background: url(/Images/Group1/astronaut1.jpg); /* Путь к файлу с заменяемым рисунком  */
+}
+
+.clock {
+    background: url(/Images/Group1/clock.jpg); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 270px; /* Ширина рисунка */
+    height: 120px; /*  Высота рисунка */
+}
+.clock:hover {
+    background: url(/Images/Group1/clock1.jpg); /* Путь к файлу с заменяемым рисунком  */
+}
+
+.diagram {
+    background: url(/Images/Group1/diagram.jpg); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 270px; /* Ширина рисунка */
+    height: 120px; /*  Высота рисунка */
+}
+.diagram:hover {
+    background: url(/Images/Group1/diagram1.jpg); /* Путь к файлу с заменяемым рисунком  */
+}
