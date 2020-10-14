@@ -72,7 +72,7 @@ a.linkedin:hover {
 /* Клиенты*/
 a.Client1 {
 
-    background: url(./logo/Client1.svg); /* Путь к файлу с исходным  рисунком */
+    background: url(/logo/Client1.svg); /* Путь к файлу с исходным  рисунком */
 
     display: block; 
 
@@ -89,7 +89,7 @@ a.Client1:hover {
 
 a.Client2 {
 
-    background: url(./logo/Client2.svg); /* Путь к файлу с исходным  рисунком */
+    background: url(/logo/Client2.svg); /* Путь к файлу с исходным  рисунком */
 
     display: block; 
 
@@ -106,7 +106,7 @@ a.Client2:hover {
 
 a.Client3 {
 
-    background: url(./logo/Client3.svg); /* Путь к файлу с исходным  рисунком */
+    background: url(/logo/Client3.svg); /* Путь к файлу с исходным  рисунком */
 
     display: block; 
 
@@ -123,7 +123,7 @@ a.Client3:hover {
 
 a.Client4 {
 
-    background: url(./logo/Client4.svg); /* Путь к файлу с исходным  рисунком */
+    background: url(/logo/Client4.svg); /* Путь к файлу с исходным  рисунком */
 
     display: block; 
 
