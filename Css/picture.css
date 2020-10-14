@@ -140,7 +140,7 @@ a.Client4:hover {
 
 a.Client5 {
 
-    background: url(./logo/Client5.svg); /* Путь к файлу с исходным  рисунком */
+    background: url(../logo/Client5.svg); /* Путь к файлу с исходным  рисунком */
 
     display: block; 
 
