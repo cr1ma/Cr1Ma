@@ -47,10 +47,10 @@
         outline: none;
         width: 200px;
         height: 50px;
-      } 
+} 
 .button:active {
     background: #1867a7;
-      }
+}
 
 /*Почта и номер*/
 .mailtell {
@@ -60,12 +60,16 @@
   color: #808080;
   text-decoration: none;
   font-weight: bold;
+  padding-right: 50px;
 }
 .mailtell:hover {
   
   color: #2196F3;
   text-decoration: none;
 
+}
+.mailtell:last-child{
+  padding-right: ;
 }
 
 
@@ -124,3 +128,56 @@ letter-spacing: 0.03em;
 
 color: #757575;
 }
+
+nav{
+ padding-top: 32px;
+ padding-bottom: 32px;
+
+}
+
+.container{
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.maintext{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height:  1.36363636364;
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.nav{
+  display: flex;
+  
+}
+
+.nav_item{
+  padding-right: 50px;
+}
+.nav_item:last-child{
+  padding-right: 0px;
+}
+
+
+li{
+  list-style-type: none;
+}
+
+.address{
+  padding-top: 32px;
+}
+
+header{
+  display: flex;
+}
+
