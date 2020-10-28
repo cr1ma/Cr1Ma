@@ -1,70 +1,4 @@
-/*Ссылки*/
-.link {
-  color: black;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 18px;
-}
-.link:hover {
-  color: #2196f3;
-  text-decoration: none;
-}
-
-/*Логотип*/
-.Web {
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  color: #2196f3;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-}
-.Studio {
-  font-family: Raleway, sans-serif;
-  color: black;
-  text-decoration: none;
-}
-
-/*Кнопки*/
-.button {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 0.8em 1em calc(0.8em + 3px);
-  border-radius: 4px;
-  background: #2196f3;
-  border: 0;
-  font-family: Roboto;
-  font-style: normal;
-  font-size: 16px;
-  outline: none;
-  width: 200px;
-  height: 50px;
-}
-.button:active {
-  background: #1867a7;
-}
-
-/*Почта и номер*/
-.mailtell {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  color: #808080;
-  text-decoration: none;
-  font-weight: bold;
-  padding-right: 50px;
-}
-.mailtell:hover {
-  color: #2196f3;
-  text-decoration: none;
-}
-.mailtell:last-child {
-  padding-right: 0px;
-}
-
-/*Вид страницы*/
+/*Общие*/
 h1 {
   font-family: Roboto;
   font-style: normal;
@@ -73,6 +7,7 @@ h1 {
   line-height: 60px;
 }
 h2 {
+  text-align: center;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -117,18 +52,96 @@ p {
 
   color: #757575;
 }
-
 nav {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-
+li {
+  list-style-type: none;
+}
+header {
+  display: flex;
+  width: 1600px;
+}
+main {
+  text-align: center;
+}
+footer {
+  display: flex;
+  width: 1600px;
+  height: 253px;
+  background: #2f303a;
+}
+.link {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+.link:hover {
+  color: #2196f3;
+  text-decoration: none;
+}
+/*Header :*/
+/*Логотип*/
+.Web {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: #2196f3;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.Studio {
+  font-family: Raleway, sans-serif;
+  color: black;
+  text-decoration: none;
+}
+.logo_header {
+  padding-top: 24px;
+  padding-left: 215px;
+}
+/*Навигация*/
+.nav {
+  display: flex;
+  padding-bottom: 32px;
+  margin-top: 0px;
+}
+.nav_item {
+  padding-right: 50px;
+}
+.nav_item:last-child {
+  padding-right: 0px;
+}
+/*Почта и номер*/
+.mailtell_header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #808080;
+  text-decoration: none;
+  font-weight: bold;
+  padding-right: 50px;
+}
+.mailtell_header:hover {
+  color: #2196f3;
+  text-decoration: none;
+}
+.mailtell_header:last-child {
+  padding-right: 0px;
+}
+.address_header {
+  padding-top: 32px;
+  padding-left: 331px;
+}
+/*Main*/
+/*Главный герой*/
 .container {
   max-width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
 }
-
 .maintext {
   font-family: Roboto;
   font-style: normal;
@@ -143,80 +156,55 @@ nav {
 
   color: #000000;
 }
-
-.nav {
-  display: flex;
-  padding-bottom: 32px;
-  margin-top: 0px;
+/*Кнопка*/
+.button {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.8em 1em calc(0.8em + 3px);
+  border-radius: 4px;
+  background: #2196f3;
+  border: 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 16px;
+  outline: none;
+  width: 200px;
+  height: 50px;
 }
-
-.nav_item {
-  padding-right: 50px;
+.button:active {
+  background: #1867a7;
 }
-.nav_item:last-child {
-  padding-right: 0px;
-}
-
-li {
-  list-style-type: none;
-}
-
-.address {
-  padding-top: 32px;
-  padding-left: 331px;
-}
-
-header {
-  display: flex;
-}
-
-.Logo {
-  padding-top: 24px;
-  padding-left: 215px;
-}
-
+/*Наши правила*/
 .features {
   display: flex;
   padding-left: 215px;
   padding-top: 94px;
+  padding-right: 215px;
 }
-
 .features_item {
   padding-right: 30px;
 }
-
+/*Направления*/
 .direction {
   text-align: center;
   display: flex;
   padding-left: 215px;
-  padding-top: 188px;
+  padding-top: 50px;
 }
-
 .direction_item {
   padding-right: 30px;
 }
-
+/*Наша Команда*/
 .team {
   text-align: center;
   display: flex;
   padding-left: 215px;
-  padding-top: 280px;
+  padding-top: 50px;
 }
-
 .team_item {
   padding-right: 30px;
 }
-
-.clients {
-  display: flex;
-  padding-left: 215px;
-  padding-top: 188px;
-}
-
-.clients_item {
-  padding-right: 30px;
-}
-
 .socials {
   text-align: center;
   display: flex;
@@ -225,4 +213,103 @@ header {
 }
 .socials_item {
   padding-right: 23px;
+}
+/*Наши клиенты*/
+.clients {
+  display: flex;
+  padding-left: 215px;
+  padding-top: 50px;
+}
+.clients_item {
+  padding-right: 30px;
+}
+
+/*Footer*/
+.Studio_footer {
+  font-family: Raleway, sans-serif;
+  color: white;
+  text-decoration: none;
+}
+/**/
+.link_footer {
+  color: #ffffff;
+  text-decoration: none;
+
+  font-weight: bold;
+  font-size: 18px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+.link_footer:hover {
+  color: #2196f3;
+  text-decoration: none;
+}
+/*Почта , номер и адрес! */
+.mailtell_footerP {
+  padding-top: 9px;
+  padding-left: 215px;
+}
+.mailtell_footer {
+  display: flex;
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.mailtell_footer:hover {
+  color: #2196f3;
+  text-decoration: none;
+}
+.mailtell_footer:last-child {
+  padding-right: 0px;
+}
+.address_footer {
+  padding-left: 215px;
+  padding-top: 10px;
+}
+/*Логотип*/
+.logo_footer {
+  padding-left: 215px;
+  padding-top: 48px;
+}
+/*Присоедениться и социальные*/
+.join {
+  padding-left: 514px;
+  padding-top: 0px;
+}
+.socials_footer {
+  text-align: center;
+  display: flex;
+  padding-left: 514px;
+}
+.socials_footer_item {
+  padding-right: 10px;
+}
+
+/*Кнопка и форма*/
+.button_footerP {
+  padding-left: 1184px;
+}
+.button_footer {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.8em 1em calc(0.8em + 3px);
+  border-radius: 4px;
+  background: #2196f3;
+  border: 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 16px;
+  outline: none;
+  width: 200px;
+  height: 50px;
 }
