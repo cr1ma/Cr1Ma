@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Studio</title>
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
     <link rel="stylesheet" href="./Css/style.css">
     <link rel="stylesheet" href="./Css/picture.css">
     <meta name="viewport" content="width=device-width,minimum-scale=1.0"/>
@@ -200,21 +201,23 @@
 </main>
   
 <footer>
-    <section>
-        <div class="logo_footer"> 
-        <a href="" class="Web" > Web  <span class="Studio_footer"> Studio </span> </a> </div>
-    
-     <div class="address_footer">
-       <a href="https://goo.gl/maps/juZQiuCGfN8mAyi4A" class="link_footer">  г. Киев, пр-т Леси Украинки , 26 </a></div>
-    
-    
-    <address class="mailtell_footerP" >
-       <a href="mailto:mrcrimayt@gmail.com" class="mailtell_footer" >mrcrimayt@gmail.com</a>      
-        <a href="tel:+3800000000"  class="mailtell_footer" >+ Я (номер) не-да-м</a>
+    <div class="container"> 
+    <div class="flex">
+    <section class="logo_block">
+      <a href="" class="Web text_footer"> Web  <span class="Studio_footer"> Studio </span> </a>
+      <a href="https://goo.gl/maps/juZQiuCGfN8mAyi4A"  class="link_footer">  г. Киев, пр-т Леси Украинки , 26 </a>
+      <address" >
+      <a href="mailto:mrcrimayt@gmail.com" class="mailtell_footer" >mrcrimayt@gmail.com</a>      
+      <a href="tel:+3800000000"  class="mailtell_footer" >+ Я (номер) не-да-м</a>
     </address>
+    </section>
 
-    <h3 class="join">Присоединяйтесь</h3>
-    <ul class="socials_footer">
+    <section  class="join">
+
+
+    
+    <h3 class="other_text">Присоединяйтесь</h3>
+    <ul class="flex">
         <li class="socials_footer_item">
             <p><a href="" class="instagram"> </a></p>
         </li>
@@ -229,19 +232,29 @@
         </li>
     </ul>
 
-    <h3>Подпишитесь на рассылку</h3>
+    </section>
 
-    <form class="form">
+    <section class="form2"> 
+    <h3 class="other_text">Подпишитесь на рассылку</h3>
+ 
+    <div class="form form_item ">
+    <form>
         <input type="text"  placeholder="E-mail" required=""><br><br>
-    </form>
+    </form> 
     
-    <div class="form">
-    <button class="button_footer">Подписаться</button></div>
+    <button class="button_footer">Подписаться</button> </div>
        
     </section>
-    <section>
-         <h6> 2020 | Developed by <a href="http://instagram.com/the_sasha_m" class="link" >Alexandr Musienko</a> </h6>
-        </section>
+    
+    
+   </div> 
+
+
+   <section class="dev">
+    <h6> 2020 | Developed by <a href="http://instagram.com/the_sasha_m" class="link" >Alexandr Musienko</a> </h6>
+   </section>
+   </div>
+
   </footer>
 </body>
 

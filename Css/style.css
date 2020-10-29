@@ -19,12 +19,12 @@ h2 {
 }
 h3 {
   font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
 
   color: #212121;
 }
@@ -58,6 +58,7 @@ nav {
 }
 li {
   list-style-type: none;
+
 }
 header {
   display: flex;
@@ -81,6 +82,10 @@ footer {
 .link:hover {
   color: #2196f3;
   text-decoration: none;
+}
+ul{
+  padding: 0;
+  margin: 0;
 }
 
 /*Header :*/
@@ -145,6 +150,8 @@ footer {
   max-width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .maintext {
   font-family: Roboto;
@@ -182,50 +189,48 @@ footer {
 /*Наши правила*/
 .features {
   display: flex;
-  padding-left: 215px;
-  padding-top: 94px;
-  padding-right: 215px;
 }
 .features_item {
   padding-right: 30px;
+  width: calc(100%/4 - 30px);
 }
 /*Направления*/
 .direction {
   text-align: center;
   display: flex;
-  padding-left: 215px;
-  padding-top: 50px;
 }
 .direction_item {
   padding-right: 30px;
+  width: calc(100%/3 - 30px);
 }
 /*Наша Команда*/
 .team {
   text-align: center;
   display: flex;
-  padding-left: 215px;
-  padding-top: 50px;
 }
 .team_item {
   padding-right: 30px;
+  width: calc(100%/4 - 30px);
 }
 .socials {
   text-align: center;
   display: flex;
-  padding-left: 32px;
-  padding-top: 16px;
 }
 .socials_item {
   padding-right: 23px;
+  width: calc(100%/4 - 11px);
+}
+.socials_item:last-child{
+  padding-right: 0px;
 }
 /*Наши клиенты*/
 .clients {
   display: flex;
-  padding-left: 215px;
-  padding-top: 50px;
+
 }
 .clients_item {
   padding-right: 30px;
+  width: calc(100%/6 - 30px);
 }
 
 /*Footer*/
@@ -233,6 +238,9 @@ footer {
   font-family: Raleway, sans-serif;
   color: white;
   text-decoration: none;
+}
+.text_footer{
+  display: block;
 }
 
 /**/
@@ -254,10 +262,6 @@ footer {
   text-decoration: none;
 }
 /*Почта , номер и адрес! */
-.mailtell_footerP {
-  padding-top: 9px;
-  padding-left: 215px;
-}
 .mailtell_footer {
   display: flex;
   text-decoration: none;
@@ -276,33 +280,22 @@ footer {
 .mailtell_footer:last-child {
   padding-right: 0px;
 }
-.address_footer {
-  padding-left: 215px;
-  padding-top: 10px;
-}
-/*Логотип*/
-.logo_footer {
-  padding-left: 215px;
-  padding-top: 48px;
-}
 /*Присоедениться и социальные*/
 .join {
-  padding-left: 514px;
-  padding-top: 0px;
+  padding-top: 56px;
+  padding-left: 69px;
+  cl
 }
 .socials_footer {
   text-align: center;
   display: flex;
-  padding-left: 514px;
 }
 .socials_footer_item {
   padding-right: 10px;
 }
 
 /*Кнопка и форма*/
-.button_footerP {
-  padding-left: 1184px;
-}
+
 .button_footer {
   color: white;
   text-decoration: none;
@@ -317,4 +310,32 @@ footer {
   outline: none;
   width: 200px;
   height: 50px;
+  margin: 12px
+}
+
+.flex{
+  display: flex;
+}
+
+.logo_block{
+  padding-top: 48px;
+}
+
+.other_text{
+  color: #FFFFFF;
+}
+
+.form2{
+  padding-left: 94px;
+  padding-top: 56px;
+}
+.form_item{
+  padding-top: 21px;
+  display: flex;
+  align-items: flex-end;
+}
+.dev{
+  padding-top: 46px;
+  padding-left: 645px;
+  
 }
