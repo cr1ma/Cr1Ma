@@ -82,7 +82,9 @@ footer {
   color: #2196f3;
   text-decoration: none;
 }
+
 /*Header :*/
+
 /*Логотип*/
 .Web {
   font-family: Raleway, sans-serif;
@@ -135,7 +137,9 @@ footer {
   padding-top: 32px;
   padding-left: 331px;
 }
+
 /*Main*/
+
 /*Главный герой*/
 .container {
   max-width: 1200px;
@@ -230,6 +234,7 @@ footer {
   color: white;
   text-decoration: none;
 }
+
 /**/
 .link_footer {
   color: #ffffff;
