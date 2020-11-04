@@ -19,12 +19,12 @@ h2 {
 }
 h3 {
   font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 
   color: #212121;
 }
@@ -58,7 +58,6 @@ nav {
 }
 li {
   list-style-type: none;
-
 }
 header {
   display: flex;
@@ -72,6 +71,7 @@ footer {
   width: 1600px;
   height: 253px;
   background: #2f303a;
+  margin-top: 94px;
 }
 .link {
   color: black;
@@ -83,14 +83,17 @@ footer {
   color: #2196f3;
   text-decoration: none;
 }
-<<<<<<< HEAD
-=======
-ul{
+
+ul {
   padding: 0;
   margin: 0;
 }
+body {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
->>>>>>> 90acdabef03e1ce3f68856e185627d4a488d3903
 /*Header :*/
 
 /*Логотип*/
@@ -103,6 +106,7 @@ ul{
   letter-spacing: 0.03em;
   text-decoration: none;
 }
+
 .Studio {
   font-family: Raleway, sans-serif;
   color: black;
@@ -195,7 +199,7 @@ ul{
 }
 .features_item {
   padding-right: 30px;
-  width: calc(100%/4 - 30px);
+  width: calc(100% / 4 - 30px);
 }
 /*Направления*/
 .direction {
@@ -204,16 +208,23 @@ ul{
 }
 .direction_item {
   padding-right: 30px;
-  width: calc(100%/3 - 30px);
+  width: calc(100% / 3 - 30px);
 }
 /*Наша Команда*/
 .team {
   text-align: center;
   display: flex;
+  margin-bottom: 94px;
 }
 .team_item {
   padding-right: 30px;
-  width: calc(100%/4 - 30px);
+  width: calc(100% / 4 - 30px);
+}
+.team_framework {
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
 }
 .socials {
   text-align: center;
@@ -221,19 +232,18 @@ ul{
 }
 .socials_item {
   padding-right: 23px;
-  width: calc(100%/4 - 11px);
+  width: calc(100% / 4 - 11px);
 }
-.socials_item:last-child{
+.socials_item:last-child {
   padding-right: 0px;
 }
 /*Наши клиенты*/
 .clients {
   display: flex;
-
 }
 .clients_item {
   padding-right: 30px;
-  width: calc(100%/6 - 30px);
+  width: calc(100% / 6 - 30px);
 }
 
 /*Footer*/
@@ -242,7 +252,7 @@ ul{
   color: white;
   text-decoration: none;
 }
-.text_footer{
+.text_footer {
   display: block;
 }
 
@@ -287,8 +297,8 @@ ul{
 .join {
   padding-top: 56px;
   padding-left: 69px;
-  cl
 }
+
 .socials_footer {
   text-align: center;
   display: flex;
@@ -313,32 +323,37 @@ ul{
   outline: none;
   width: 200px;
   height: 50px;
-  margin: 12px
+  margin: 12px;
 }
 
-.flex{
+.flex {
   display: flex;
 }
 
-.logo_block{
+.logo_block {
   padding-top: 48px;
 }
 
-.other_text{
-  color: #FFFFFF;
+.other_text {
+  color: #ffffff;
 }
 
-.form2{
+.form2 {
   padding-left: 94px;
   padding-top: 56px;
 }
-.form_item{
+.form_item {
   padding-top: 21px;
   display: flex;
   align-items: flex-end;
 }
-.dev{
+
+.dev {
   padding-top: 46px;
   padding-left: 645px;
-  
+}
+
+/*Постоянные клиенты*/
+.regular {
+  background-color: #f5f4fa;
 }
