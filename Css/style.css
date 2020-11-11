@@ -47,10 +47,12 @@ p {
   font-size: 16px;
   line-height: 19px;
   /* identical to box height */
-
   letter-spacing: 0.03em;
 
   color: #757575;
+}
+.ar {
+  text-align: left;
 }
 nav {
   padding-top: 32px;
@@ -68,8 +70,6 @@ main {
 }
 footer {
   display: flex;
-  width: 1600px;
-  height: 253px;
   background: #2f303a;
   margin-top: 94px;
 }
@@ -89,7 +89,6 @@ ul {
   margin: 0;
 }
 body {
-  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -114,13 +113,13 @@ body {
 }
 .logo_header {
   padding-top: 24px;
-  padding-left: 215px;
 }
 /*Навигация*/
 .nav {
   display: flex;
   padding-bottom: 32px;
   margin-top: 0px;
+  padding-left: 86px;
 }
 .nav_item {
   padding-right: 50px;
@@ -214,7 +213,6 @@ body {
 .team {
   text-align: center;
   display: flex;
-  margin-bottom: 94px;
 }
 .team_item {
   padding-right: 30px;
@@ -356,4 +354,22 @@ body {
 /*Постоянные клиенты*/
 .regular {
   background-color: #f5f4fa;
+}
+
+.container1 {
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 94px;
+}
+
+.tx1 {
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+
+.wwm {
+  padding-bottom: 94px;
 }
