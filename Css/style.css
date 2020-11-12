@@ -146,7 +146,7 @@ body {
 }
 .address_header {
   padding-top: 32px;
-  padding-left: 331px;
+  margin-left: auto;
 }
 
 /*Main*/
