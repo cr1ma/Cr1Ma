@@ -18,3 +18,37 @@
   background: #2196f3;
   color: #fff;
 }
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.framework {
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  text-align: left;
+}
+
+.framework_item {
+  padding-right: 30px;
+}
+
+.h3_portf {
+  margin-top: 20px;
+  padding-left: 24px;
+}
+.p_portf {
+  margin-top: 4px;
+  padding-left: 24px;
+  padding-bottom: 20px;
+}
+
+.works {
+  margin-top: 50px;
+}
+.buttons_portf {
+  margin-top: 93px;
+}
