@@ -83,6 +83,9 @@ footer {
   color: #2196f3;
   text-decoration: none;
 }
+.active {
+  color: #2196f3;
+}
 
 ul {
   padding: 0;
@@ -227,9 +230,11 @@ body {
 .socials {
   text-align: center;
   display: flex;
+  margin: auto;
+  justify-content: center;
 }
 .socials_item {
-  padding-right: 23px;
+  margin-right: 11px;
   width: calc(100% / 4 - 11px);
 }
 .socials_item:last-child {
@@ -240,7 +245,7 @@ body {
   display: flex;
 }
 .clients_item {
-  padding-right: 30px;
+  margin-right: 30px;
   width: calc(100% / 6 - 30px);
 }
 
@@ -367,6 +372,7 @@ body {
 .tx1 {
   padding-top: 94px;
   padding-bottom: 50px;
+  margin: 0px;
 }
 
 .wwm {
