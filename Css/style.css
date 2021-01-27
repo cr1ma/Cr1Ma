@@ -79,9 +79,20 @@ footer {
   font-weight: bold;
   font-size: 18px;
 }
+
 .link:hover {
   color: #2196f3;
   text-decoration: none;
+}
+
+.nav_item .link.active:hover::after {
+  content: '';
+  background-color: #2196f3;
+  display: block;
+  width: 100%;
+  height: 4px;
+  border-radius: 4px;
+  margin-top: 50px;
 }
 .active {
   color: #2196f3;
